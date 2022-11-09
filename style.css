@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+.main {
+  display: flex;
+}
+.image-preview {
+  flex-basis: 50%;
+}
+.home-content {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.h-top-content {
+  display: flex;
+  flex-direction: column;
+  margin: 95px;
+  gap: 30px;
+}
+h1 {
+  font-size: 40px;
+  line-height: 41px;
+}
+p {
+  font-size: 18px;
+  line-height: 26px;
+  color: hsl(0, 0%, 63%);
+}
+.shop-btn {
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+.forword {
+  border: none;
+  background-color: black;
+  padding: 10px 30px;
+}
+.backward {
+  border: none;
+  background-color: black;
+  padding: 10px 30px;
+}
+section.about {
+  display: flex;
+}
+.a-content {
+  flex-basis: 40%;
+}
+.a-image {
+  flex-basis: 30%;
+}
+.a-content {
+  display: flex;
+  flex-basis: 40%;
+  padding: 30px;
+  flex-direction: column;
+  gap: 30px;
+
+  margin-top: 30px;
+}
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+.a-content p {
+  text-align: justify;
+}
+.logo {
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+}
+.nav a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  padding: 0px 30px;
+  font-size: 20px;
+}
+.nav a {
+  display: inline;
+}
+nav#navbar {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  margin: 20px 40px;
+  position: absolute;
+}
+.menu-image {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .h-top-content {
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    gap: 30px;
+  }
+
+  img.preview-image {
+    width: 400px;
+  }
+  .home-content {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  .h-bottom-content {
+    position: absolute;
+    top: 206px;
+    right: 7px;
+  }
+  section.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+  .menu-image {
+    display: block;
+  }
+  .nav a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 20px;
+    display: none;
+  }
+  .responsive {
+    text-decoration: none;
+    position: absolute;
+    background-color: white;
+    padding: 28px 51px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    left: -40px;
+  }
+  .responsive a {
+   
+    text-decoration: none;
+   
+  }
+}

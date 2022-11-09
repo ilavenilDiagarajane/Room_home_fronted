@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar" id="navbar">
+          <image src="images/icon-hamburger.svg" alt="menu-image" class="menu-image" onclick="displaymenu()" />
+         
+          <div class="logo">room</div>
+          <div class="nav" id="menu">
+            <a href="#">home</a>
+            <a href="#">shop</a>
+            <a href="#">about</a>
+        <a href="#">contact</a>
+          </div>
+        </nav>
+      </header>
+      <section class="main">
+        <div class="image-preview">
+          <image
+            src="images/desktop-image-hero-1.jpg"
+            alt="preview-image"
+            class="preview-image"
+            id="preview-image"
+          />
+        </div>
+        <div class="home-content">
+          <div class="h-top-content">
+            <h1 id="title">Discover innovative ways to decorate</h1>
+            <p id="para">
+              We provide unmatched quality, comfort, and style for property
+              owners across the country. Our experts combine form and function
+              in bringing your vision to life. Create a room in your own style
+              with our collection and make your property a reflection of you and
+              what you love.
+            </p>
+            <div class="shop-btn">
+              Shop now <image src="images/icon-arrow.svg" alt="arrow-image" />
+            </div>
+          </div>
+          <div class="h-bottom-content">
+            <button class="backward" type="button" onclick="backward()">
+              <image src="images/icon-angle-left.svg" alt="arrow-image" />
+            </button>
+            <button class="forword" type="button" onclick="forword()">
+              <image src="images/icon-angle-right.svg" alt="arrow-image" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="a-image">
+          <image
+            src="images/image-about-dark.jpg"
+            alt="preview-image"
+            class="preview-image"
+          />
+        </div>
+        <div class="a-content">
+          <h3>About our furniture</h3>
+          <p>
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space..
+          </p>
+        </div>
+        <div class="a-image">
+          <image
+            src="images/image-about-light.jpg"
+            alt="preview-image"
+            class="preview-image"
+          />
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
